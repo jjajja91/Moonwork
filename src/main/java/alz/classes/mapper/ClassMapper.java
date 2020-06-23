@@ -16,7 +16,7 @@ public interface ClassMapper {
 	public int deleteTmp(ClassTmpDTO classTmp);
 	public int update(ClassDTO classDto);
 	public int delete(ClassDTO classDto);
-	public int 
+	public int updateState(ClassDTO classDto);
 	
 	
 }
